@@ -11,3 +11,16 @@ export interface Photo {
   description: string,
   user: { name: string },
 }
+
+export interface PhotoState {
+  photosArray: Photo[];
+}
+
+export interface DataState {
+  photosArray: Data[];
+}
+
+export interface Action {
+  type: string,
+  payload: Photo[]
+}
