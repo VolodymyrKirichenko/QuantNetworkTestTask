@@ -5,7 +5,7 @@ import {
   View
 } from 'react-native';
 import { ListItems } from '../ListItems/ListItems';
-import useFetchPhotos from '../../hooks/useFetchPhotos';
+import { useFetchPhotos } from '../../hooks/useFetchPhotos';
 
 export const Main = ({ navigation }: any) => {
   const { photosArray } = useFetchPhotos();
